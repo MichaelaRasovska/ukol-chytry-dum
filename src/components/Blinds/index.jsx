@@ -5,7 +5,7 @@ import '../../style.css';
 
 const Blinds = ({ state }) => {
   const [blindsState, setBlindsState] = useState(state);
-  const [openButton, setOpenButton] = useState('');
+  const [openButton, setOpenButton] = useState(true);
 
   return (
     <div className="blinds">
